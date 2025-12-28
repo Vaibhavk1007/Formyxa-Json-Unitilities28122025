@@ -9,6 +9,8 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.formyxa.com"),
+  
   title: "ToolKit - Essential Text & JSON Utilities",
   description:
     "Professional text and JSON utilities. Convert text case, format JSON, clean text, take notes, and analyze text statistics.",
