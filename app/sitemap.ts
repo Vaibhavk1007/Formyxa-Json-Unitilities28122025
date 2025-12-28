@@ -44,5 +44,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/contact`,
       priority: 0.4,
     },
+    {
+      url: `${baseUrl}/text-normalizer`,
+      priority: 0.9,
+    }
   ];
 }

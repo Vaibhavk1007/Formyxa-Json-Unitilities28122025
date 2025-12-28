@@ -9,6 +9,13 @@ export const metadata: Metadata = {
 }
 
 const tools = [
+
+  {
+  name: "Text Normalizer",
+    description: "Fix OCR errors, broken words, spacing, and formatting issues in text.",
+    href: "/text-normalizer",
+    icon: "🛠",
+  },
   {
     name: "Text Case Converter",
     description: "Convert text between uppercase, lowercase, title case, and sentence case with font preview.",
